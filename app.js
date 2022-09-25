@@ -8,3 +8,4 @@ import './components/Sidebar/SidebarMore.js';
 import './components/Sidebar/SidebarMoon.js';
 import './components/Sidebar/SidebarLogo.js';
 import './components/Button/PrimaryButton.js';
+import './components/Sidebar/SidebarUsername.js';

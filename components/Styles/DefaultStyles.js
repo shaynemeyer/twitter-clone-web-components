@@ -18,7 +18,7 @@ const DefaultStyles = css`
     background-color: var(--primary-90);
   }
 
-  :host(.default.active) p {
+  :host(.default.active) type-style {
     font-weight: var(--bold-weight);
   }
 `;

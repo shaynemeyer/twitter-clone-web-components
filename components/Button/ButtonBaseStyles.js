@@ -1,15 +1,16 @@
 import { css } from '../../lit.js';
 
-const SidebarButtonStyles = css`
+const ButtonBaseStyles = css`
   :host,
   div {
     display: inline-flex;
     align-items: center;
-    gap: 12px;
-    padding: 12px;
+    text-align: center;
     border-radius: 50px;
+    font-weight: var(--bold-weight);
     cursor: pointer;
+    color: var(--gray-100);
   }
 `;
 
-export default SidebarButtonStyles;
+export default ButtonBaseStyles;
