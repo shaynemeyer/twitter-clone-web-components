@@ -6,6 +6,7 @@ const ButtonBaseStyles = css`
     display: inline-flex;
     align-items: center;
     text-align: center;
+    justify-content: center;
     border-radius: 50px;
     font-weight: var(--bold-weight);
     cursor: pointer;
