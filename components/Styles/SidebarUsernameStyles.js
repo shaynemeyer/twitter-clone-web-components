@@ -4,10 +4,15 @@ const SidebarUsernameStyles = css`
   :host,
   div {
     display: inline-flex;
+    flex-basis: 100%;
     gap: 16px;
-    padding: 16px;
     align-items: center;
     border-radius: 100px;
+    transition: all 100ms ease-out;
+  }
+
+  div {
+    padding: 16px;
   }
 
   :host img {

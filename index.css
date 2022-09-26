@@ -42,6 +42,14 @@
 html,
 body {
   font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  transition: background-color 200ms ease-in-out;
 }
 
 body.light-theme {
@@ -63,6 +71,7 @@ aside {
 aside header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 aside section {
@@ -76,4 +85,27 @@ aside footer {
   display: flex;
   flex-grow: 1;
   align-items: flex-end;
+  position: relative;
+}
+
+aside footer div {
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+  position: absolute;
+  bottom: 72px;
+  left: 240px;
+  border-radius: 16px;
+}
+
+aside footer div.default {
+  background-color: var(--gray-100);
+  box-shadow: -8px 0px 20px rgba(61, 109, 143, 0.08),
+    0px 0px 20px 1px rgba(61, 109, 143, 0.08);
+}
+
+aside footer div.dark {
+  background-color: var(--secondary-15);
+  box-shadow: -8px 0px 20px rgba(15, 27, 36, 0.35),
+    0px 0px 20px 1px rgba(15, 27, 36, 0.35);
 }
