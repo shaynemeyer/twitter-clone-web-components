@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+}
+
+html,
+body {
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+}

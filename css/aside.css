@@ -1,0 +1,48 @@
+aside {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+
+aside header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+aside section {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+}
+
+aside footer {
+  display: flex;
+  flex-grow: 1;
+  align-items: flex-end;
+  position: relative;
+}
+
+#dropdownItems,
+#dropdownUsername {
+  display: none;
+  width: 320px;
+  overflow: clip;
+  flex-direction: column;
+  position: absolute;
+  border-radius: 16px;
+}
+
+#dropdownItems {
+  top: 35%;
+  left: 40%;
+}
+
+#dropdownUsername {
+  bottom: 16%;
+  left: 5%;
+}

@@ -26,24 +26,34 @@
       <sidebar-list class="default"></sidebar-list>
       <sidebar-profile class="default"></sidebar-profile>
       <sidebar-more class="default"></sidebar-more>
-    </section>
-
-    <primary-button class="default regular" label="Continue"></primary-button>
-
-    <footer>
-      <sidebar-username image="./images/Profile.png" account="@sampleTwitterUser" username="Hossein Boroji"
-        class="default">
-      </sidebar-username>
-      <div class="default">
+      <div class="default" id="dropdownItems">
         <dropdown-topic class="default"></dropdown-topic>
         <dropdown-news class="default"></dropdown-news>
         <dropdown-spaces class="default"></dropdown-spaces>
         <dropdown-ads class="default"></dropdown-ads>
         <dropdown-analytics class="default"></dropdown-analytics>
+        <horizontal-border class="default"></horizontal-border>
         <dropdown-settings class="default"></dropdown-settings>
         <dropdown-help class="default"></dropdown-help>
         <dropdown-display class="default"></dropdown-display>
         <dropdown-shortcuts class="default"></dropdown-shortcuts>
+      </div>
+    </section>
+
+    <primary-button class="default large" label="Tweet"></primary-button>
+
+    <footer>
+      <sidebar-username image="./images/Profile.png" account="@sampleTwitterUser" username="Hossein Boroji"
+        class="default">
+      </sidebar-username>
+
+      <div class="default" id="dropdownUsername">
+        <dropdown-username image="./images/Profile.png" account="Hossein Boroji" username="@sampleTwitterUser"
+          class="default">
+        </dropdown-username>
+        <horizontal-border class="default"></horizontal-border>
+        <dropdown-text label="Add new account" class="default"></dropdown-text>
+        <dropdown-text label="Logout" class="default"></dropdown-text>
       </div>
     </footer>
 

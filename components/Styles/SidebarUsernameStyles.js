@@ -9,6 +9,7 @@ const SidebarUsernameStyles = css`
     align-items: center;
     border-radius: 100px;
     transition: all 100ms ease-out;
+    cursor: pointer;
   }
 
   div {

@@ -1,0 +1,21 @@
+body.light-theme {
+  background-color: var(--gray-100);
+}
+
+body.dark-theme {
+  background-color: var(--secondary-15);
+}
+
+#dropdownItems.default,
+#dropdownUsername.default {
+  background-color: var(--gray-100);
+  box-shadow: -8px 0px 20px rgba(61, 109, 143, 0.08),
+    0px 0px 20px 1px rgba(61, 109, 143, 0.08);
+}
+
+#dropdownItems.dark,
+#dropdownUsername.dark {
+  background-color: var(--secondary-15);
+  box-shadow: -8px 0px 20px rgba(15, 27, 36, 0.35),
+    0px 0px 20px 1px rgba(15, 27, 36, 0.35);
+}
