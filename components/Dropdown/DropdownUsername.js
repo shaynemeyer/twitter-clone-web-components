@@ -1,5 +1,5 @@
 import { LitElement, html, css } from '../../lit.js';
-import SidebarUsernameStyles from '../Styles/SidebarUsernameStyles.js';
+import SidebarUsernameStyles from '../Sidebar/SidebarUsernameStyles.js';
 import '../Styles/TypeStyle.js';
 
 class DropdownUsername extends LitElement {

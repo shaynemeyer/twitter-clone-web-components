@@ -1,7 +1,7 @@
 import { LitElement, html } from '../../lit.js';
 import DarkStyles from '../Styles/DarkStyles.js';
 import DefaultStyles from '../Styles/DefaultStyles.js';
-import SidebarUsernameStyles from '../Styles/SidebarUsernameStyles.js';
+import SidebarUsernameStyles from './SidebarUsernameStyles.js';
 import '../Styles/TypeStyle.js';
 
 export class SidebarUsername extends LitElement {
