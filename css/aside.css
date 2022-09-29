@@ -1,5 +1,9 @@
 aside {
   height: 100vh;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
   gap: 16px;
@@ -19,6 +23,8 @@ aside section {
   gap: 16px;
   position: relative;
   z-index: 2;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 aside footer {
@@ -42,6 +48,7 @@ aside footer {
 #dropdownItems {
   top: 35%;
   left: 40%;
+  z-index: 5;
 }
 
 #dropdownUsername {

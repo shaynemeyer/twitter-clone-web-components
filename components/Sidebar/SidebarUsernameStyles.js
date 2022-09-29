@@ -3,13 +3,20 @@ import { css } from '../../lit.js';
 const SidebarUsernameStyles = css`
   :host,
   div {
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
     flex-basis: 100%;
     gap: 16px;
     align-items: center;
-    border-radius: 100px;
+    border-radius: 16px;
     transition: all 100ms ease-out;
     cursor: pointer;
+  }
+
+  @media (max-width: 920px) {
+    :host primary-button {
+      width: 100%;
+    }
   }
 
   div {
@@ -19,6 +26,7 @@ const SidebarUsernameStyles = css`
   :host img {
     width: 40px;
     height: 40px;
+    border-radius: 100px;
   }
 
   :host section {

@@ -26,19 +26,20 @@
       <sidebar-list class="default"></sidebar-list>
       <sidebar-profile class="default"></sidebar-profile>
       <sidebar-more class="default"></sidebar-more>
-      <div class="default" id="dropdownItems">
-        <dropdown-topic class="default"></dropdown-topic>
-        <dropdown-news class="default"></dropdown-news>
-        <dropdown-spaces class="default"></dropdown-spaces>
-        <dropdown-ads class="default"></dropdown-ads>
-        <dropdown-analytics class="default"></dropdown-analytics>
-        <horizontal-border class="default"></horizontal-border>
-        <dropdown-settings class="default"></dropdown-settings>
-        <dropdown-help class="default"></dropdown-help>
-        <dropdown-display class="default"></dropdown-display>
-        <dropdown-shortcuts class="default"></dropdown-shortcuts>
-      </div>
     </section>
+
+    <div class="default" id="dropdownItems">
+      <dropdown-topic class="default"></dropdown-topic>
+      <dropdown-news class="default"></dropdown-news>
+      <dropdown-spaces class="default"></dropdown-spaces>
+      <dropdown-ads class="default"></dropdown-ads>
+      <dropdown-analytics class="default"></dropdown-analytics>
+      <horizontal-border class="default"></horizontal-border>
+      <dropdown-settings class="default"></dropdown-settings>
+      <dropdown-help class="default"></dropdown-help>
+      <dropdown-display class="default"></dropdown-display>
+      <dropdown-shortcuts class="default"></dropdown-shortcuts>
+    </div>
 
     <primary-button class="default large" label="Tweet"></primary-button>
 
@@ -56,20 +57,47 @@
         <dropdown-text label="Logout" class="default"></dropdown-text>
       </div>
     </footer>
-
-
   </aside>
 
+  <vertical-border class="default"></vertical-border>
 
+  <main>
+    <div id="home">
+      <div>
+        <type-style class="size-20px bold default" label="Home"></type-style>
+        <star-icon class="default"></star-icon>
+      </div>
+      <div>
+        <img class="image-style" src="./Images/Avatar.jpg">
+        <type-style class="size-20px regular default gray" label="What is happening?"></type-style>
+      </div>
+      <div>
+        <div>
+          <image-icon class="default"></image-icon>
+          <gif-icon class="default"></gif-icon>
+          <analytics-icon class="default"></analytics-icon>
+          <emoji-icon class="default"></emoji-icon>
+          <event-icon class="default"></event-icon>
+          <location-icon class="default"></location-icon>
+        </div>
+        <primary-button label="Tweet" class="default regular"></primary-button>
+      </div>
+      <horizonal-border class="default">
+        </horizontal-border>
+    </div>
 
+    <!-- Tweet Cards -->
+    <div id="tweet"></div>
 
+  </main>
+  <vertical-border class="default"></vertical-border>
+  <article>
+    <type-style class="size-20px bold default" label="News Feed"></type-style>
+    <div class="follow-info"></div>
 
-
-
-
-
-
-
+    <type-style class="size-20px bold default" label="Who to follow"></type-style>
+    <div class="trending-info"></div>
+  </article>
 </body>
 
 </html>

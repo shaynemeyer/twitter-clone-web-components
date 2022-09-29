@@ -20,6 +20,46 @@ class TypeStyle extends LitElement {
         text-decoration: none;
       }
 
+      :host(.default) {
+        color: var(--secondary-15);
+      }
+
+      :host(.dark) {
+        color: var(--gray-100);
+      }
+
+      :host(.default.gray) {
+        color: var(--gray-40);
+      }
+
+      :host(.dark.gray) {
+        color: var(--gray-100);
+      }
+
+      :host(.default.success) {
+        color: var(--success-35);
+      }
+
+      :host(.dark.success) {
+        color: var(--success-60);
+      }
+
+      :host(.default.alert) {
+        color: var(--alert-50);
+      }
+
+      :host(.dark.alert) {
+        color: var(--alert-70);
+      }
+
+      :host(.default.primary) {
+        color: var(--primary-50);
+      }
+
+      :host(.dark.primary) {
+        color: var(--primary-70);
+      }
+
       :host(.regular) {
         font-weight: var(--regular-weight);
       }

@@ -1,7 +1,7 @@
 import { LitElement, html } from '../../lit.js';
 import DarkStyles from '../Styles/DarkStyles.js';
 import DefaultStyles from '../Styles/DefaultStyles.js';
-import SidebarButtonStyles from './SidebarButtonsStyles.js';
+import SidebarButtonStyles from './SidebarButtonStyles.js';
 import '../Styles/TypeStyle.js';
 export class SidebarNotification extends LitElement {
   static styles = [DefaultStyles, DarkStyles, SidebarButtonStyles];

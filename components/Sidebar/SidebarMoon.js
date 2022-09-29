@@ -1,7 +1,7 @@
 import { LitElement, html, css } from '../../lit.js';
 import DarkStyles from '../Styles/DarkStyles.js';
 import DefaultStyles from '../Styles/DefaultStyles.js';
-import SidebarButtonStyles from './SidebarButtonsStyles.js';
+import SidebarButtonStyles from './SidebarButtonStyles.js';
 
 export class SidebarMoon extends LitElement {
   static styles = [DefaultStyles, DarkStyles, SidebarButtonStyles];

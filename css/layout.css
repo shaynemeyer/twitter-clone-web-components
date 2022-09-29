@@ -1,5 +1,5 @@
 body {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: minmax(240px, 1fr) 1px 4fr 1px minmax(400px, 1fr);
   transition: background-color 200ms ease-in-out;
 }

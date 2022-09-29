@@ -11,6 +11,7 @@ const ButtonBaseStyles = css`
     font-weight: var(--bold-weight);
     cursor: pointer;
     color: var(--gray-100);
+    transition: all 100ms ease-out;
   }
 `;
 

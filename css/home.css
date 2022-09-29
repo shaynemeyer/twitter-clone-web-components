@@ -1,0 +1,18 @@
+#home {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+#home div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#home div:nth-child(2) {
+  justify-content: flex-start;
+  gap: 16px;
+}
